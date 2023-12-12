@@ -45,7 +45,7 @@ function AfficherEquipe($id){
 ?>
 <a href="views/test.php" class="btn btn-outline-danger">login</a>
 <h1 class="display-5 text-center mb-2 text-info text-uppercase">
-    les rencontres futures
+    les rencontres à vénir
 </h1>
 <a href="./views/resultats.php" class="btn btn-success mb-2">les anciennes rencontres</a>
 

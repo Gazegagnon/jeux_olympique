@@ -24,6 +24,7 @@ $personnels = $st->fetchAll();
     <div class="row">
         <div class="col-md-10">
             <h1 class="display-3">la liste du personnel</h1>
+            <a href="v_personnel_add.php" class="btn btn-primary">Ajouter personnel</a>
             <table class="table">
   <thead>
     <tr>
@@ -46,13 +47,13 @@ $personnels = $st->fetchAll();
       <td><?php echo $personnel["id_personnel"]?> </td>
       <td><?php echo $personnel["prenom"]?> </td>
       <td><?php echo $personnel["nom"]?> </td>
-      <td><?php echo $personnel["sexe"]?> </td>
+      <td><?php echo $personnel["sexe"]?> </td> 
       <td><?php echo $personnel["role"]?> </td>
       <td><?php echo $personnel["nom_equipe"]?> </td>
       
 
-      <td> <a href="traitementEquipe.php?modifier=<?php echo $personnel["id_personnel"]?>"> <i>modifier</i>  </a> /
-      <a href="traitementEquipe.php?supprimer=<?php echo $personnel["id_personnel"]?>">supprimer</a></td>
+      <td> <a href="traitementPersonnel.php?modifier=<?php echo $personnel["id_personnel"]?>"> <i>modifier</i>  </a> /
+      <a href="traitementPersonnel.php?supprimer=<?php echo $personnel["id_personnel"]?>">supprimer</a></td>
       
       </tr>
       <?php }   ?>
@@ -63,3 +64,7 @@ $personnels = $st->fetchAll();
         </div>  
     </div>
 </div>
+
+
+
+

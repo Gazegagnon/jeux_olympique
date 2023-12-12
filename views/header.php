@@ -8,8 +8,8 @@
     <title>Jeux Olympiques - Gestion des Équipes et du Personnel</title>
 </head>
 <body>
-    <header>
-        <h1>Jeux Olympiques - Gestion des Équipes</h1>
+    <header class="bg-dark p-4 mt-4 text-white text-center">
+        <h1>VIVEZ LES JEUX OLYMPIQUES</h1>
     </header>
 
 

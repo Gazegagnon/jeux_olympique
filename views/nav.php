@@ -23,10 +23,10 @@
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://media.istockphoto.com/id/172964901/fr/photo/gloire-tenant-flambeau.jpg?s=1024x1024&w=is&k=20&c=dEhqdyAK6eu5UGzaZf5TdGYC_VJE_o2c_Uf7Y3Hw6Nc=" class="d-block w-100" alt="...">
+      <img src="https://cdn.pixabay.com/photo/2016/08/18/14/42/ground-1603177_1280.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2013/02/09/04/23/swimmers-79592_1280.jpg" class="d-block w-100" alt="...">
+      <img src="https://cdn.pixabay.com/photo/2016/07/26/20/18/olympia-1543733_1280.jpg" class="d-block w-100" alt="...">
     </div>
 
     </div>

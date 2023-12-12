@@ -44,8 +44,8 @@ $equipes = $st->fetchAll();
       
      
       <td><?php echo $equipe["nom_equipe"]?></td>
-      <td> <a href="traitementEquipe.php?modifier=<?php echo $equipe["id_equipe"]?>"> <i>modifier</i>  </a> /
-      <a href="traitementEquipe.php?supprimer=<?php echo $equipe["id_equipe"]?>">supprimer</a></td>
+      <td> <a href="traitementPersonnel.php?modifier=<?php echo $equipe["id_equipe"]?>"> <i>modifier</i>  </a> /
+      <a href="traitementPersonnel.php?supprimer=<?php echo $equipe["id_equipe"]?>">supprimer</a></td>
       
       </tr>
       <?php }   ?>
@@ -56,3 +56,4 @@ $equipes = $st->fetchAll();
         </div>  
     </div>
 </div>
+
